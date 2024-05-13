@@ -58,6 +58,14 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: white;
+    position: relative;
+}
+.btn::before {
+    content: attr(data-text); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn:focus {
@@ -68,9 +76,9 @@ body {
     padding-top: 10px;
     background-color: white;
     border: 2px solid;
-    width: 150px;
+    width: 240px;
     height: 50px;
-    font-size: 3.2rem;
+    font-size: 1.5rem;
     margin: 0 30px;
     transition: all 0.5s;
 }
@@ -86,24 +94,24 @@ body {
     color: white;
 }
 
-.btn--green {
+.btn--orange {
     border-color: orange;
     color: orange;
 }
 
-.btn--green:active,
-.btn--green:hover {
+.btn--orange:active,
+.btn--orange:hover {
     background-color: darkorange;
     color: white;
 }
 
-.btn--yellow {
+.btn--red {
     border-color: red;
     color: red;
 }
 
-.btn--yellow:active,
-.btn--yellow:hover {
+.btn--red:active,
+.btn--red:hover {
     background-color: darkred;
     color: white;
 }
