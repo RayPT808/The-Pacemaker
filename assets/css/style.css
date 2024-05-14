@@ -1,175 +1,22 @@
-/* --------- Global style */
-
 body {
-    background-color: white;
-    font-family: "Raleway", sans-serif;
-    color: #445361;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    }
+    .container {
     text-align: center;
-}
-
-/* --------- Heading */
-
-.heading {
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.logo {
-    height: 40px;
-    padding-right: 5px;
-}
-
-/* --------- Pace area layout */
-
-.pace-area {
-    background-color: #E6ECF0;
-    box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
-}
-
-.numbers-area {
-    width: 50%;
-    font-size: 2rem;
-    margin: auto;
-    padding: 50px 0;
-}
-
-.numbers-area span {
-    padding: 0 15px;
-}
-
-.operations-area {
-    width: 85%;
-    margin: 30px auto;
-}
-
-/* --------- Buttons */
-
-.btn {
-    width: 220px;
-    height: 60px;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: white;
-    position: relative;
-}
-.btn::before {
-    content: attr(data-text); 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn--big {
-    padding-top: 10px;
-    background-color: white;
-    border: 2px solid;
-    width: 240px;
-    height: 50px;
-    font-size: 1.5rem;
-    margin: 0 30px;
-    transition: all 0.5s;
-}
-
-.btn--blue {
-    border-color: blue;
-    color: blue;
-}
-
-.btn--blue:active,
-.btn--blue:hover {
-    background-color: darkblue;
-    color: white;
-}
-
-.btn--orange {
-    border-color: orange;
-    color: orange;
-}
-
-.btn--orange:active,
-.btn--orange:hover {
-    background-color: darkorange;
-    color: white;
-}
-
-.btn--red {
-    border-color: red;
-    color: red;
-}
-
-.btn--red:active,
-.btn--red:hover {
-    background-color: darkred;
-    color: white;
-}
-
-
-
-/* --------- Media queries */
-
-@media (max-width: 414px) {
-    .operations-area {
-        width: 100%;
     }
-
-    .btn--big {
-        margin: 0 10px;
-        padding: 5px;
-        border: 5px solid;
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
+    input, button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     }
-
-    .btn--big::after {
-        font-size: 0.6rem;
-        left: -0.7rem;
+    button {
+    cursor: pointer;
     }
-
-    .numbers-area {
-        padding: 10% 0;
-        width: 100%;
-    }
-
-    .numbers-area span {
-        padding: 0;
-    }
-
-    
-
-    .heading {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 320px) {
-    .game-area {
-        height: 70vh;
-    }
-
-    .operationss-area {
-        width: 75%;
-        margin: 10px auto;
-    }
-
-    .btn--big {
-        margin: 10px 10px;
-    }
-    .numbers-area {
-        padding: 10px 0;
-    }
-
-}
