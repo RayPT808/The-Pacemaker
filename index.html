@@ -11,49 +11,25 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>The Pacemaker</title>
 </head>
 
 <body>
 
-    <h1>The Pacemaker
-        <img class="runningicon" src="assets/images/runningicon.png" alt="runningicon">
-    </h1>
+    <div class="container">
+        <h1>Running Pace Calculator</h1>
 
+        <!--input fields for the users-->
 
-    <p>Find your running pace per kilometer. Calculate the distance you can run in a given amount
-        of time, time required to run a specific distance. Use this calculator to find average
-        pace for running or walking.</p>
-
-    <div class="pace-area">
-
-        <div class="numbers-area">
-            <span id="time">0</span>
-            <span id="distance">0</span>
-            <span id="pace">0</span>
-            
-            <form action="/action_page.php">
-                <label for="time">
-                    Time:</label>
-                <input type="number" id="time" name="time"><br><br>
-                <label for="distance">Distance:</label>
-                <input type="number" id="distance" name="distance"><br><br>
-                <label for="pace">Pace:</label>
-                <input type="number" id="pace" name="pace"><br><br>
-            </form>
-        </div>
-        <div class="operations-area">
-            <button data-type="submit" class="btn btn--big btn--orange" data-text="Run!"></button>
-            <button class="btn btn--big btn--red" data-text="Re-Start"></button>
-        </div>
-        <div class="settings-area">
-            <button class="btn btn--big btn--blue" data-text="Metric/Imperial"></button>
-        </div>
-
+        <input type="number" id="distance" placeholder="Distance (kilometers)" />
+        <input type="text" id="pace" placeholder="Pace (mm:ss)" pattern="\d{2}:\d{2}" />
+        <input type="text" id="time" placeholder="Time (hh:mm:ss)" pattern="\d{2}:\d{2}:\d{2}" />
+        <button id="calculate">Calculate</button>
+        <button id="reset">Reset</button>
+        <p id="resultDistance">Distance will be shown here</p>
+        <p id="resultPace">Pace will be shown here</p>
+        <p id="resultTime">Time will be shown here</p>
     </div>
-
-
-
 
 
 
