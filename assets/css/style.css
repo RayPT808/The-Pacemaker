@@ -8,12 +8,11 @@ body {
     align-items: flex-start;
     height: 100vh;
     background-color: #f7f7f7;
-    background-image: url('../images/backgroundimage.png');
+    background-image: url('../images/backgroundimage2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 1.0;
 
 }
 
@@ -47,7 +46,7 @@ footer {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     height: 100px; /* Set a fixed height for the footer */
-    color:white;
+    color:black;
     
     }
     
