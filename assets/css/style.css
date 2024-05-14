@@ -19,4 +19,14 @@ body {
     }
     button {
     cursor: pointer;
+     
     }
+
+    /* Background image*/
+    
+    background-image: url(..ass);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+ 
