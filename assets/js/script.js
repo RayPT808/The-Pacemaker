@@ -54,3 +54,14 @@ document.getElementById('calculate').addEventListener('click', function () {
     document.getElementById('resultPace').textContent = values.pace ? `${values.pace.minutes}:${values.pace.seconds.toString().padStart(2, '0')} per kilometer` : 'Enter Distance and Time to calculate Pace';
     document.getElementById('resultTime').textContent = calculatedTime ? `${calculatedTime.hours.toString().padStart(2, '0')}h ${calculatedTime.minutes.toString().padStart(2, '0')}m ${calculatedTime.seconds.toString().padStart(2, '0')}s` : 'Enter Distance and Pace to calculate Time';
 });
+
+// Event listener for the reset button
+
+document.getElementById('reset').addEventListener('click', function () {
+    document.getElementById('distance').value = '';
+    document.getElementById('pace').value = '';
+    document.getElementById('time').value = '';
+    document.getElementById('resultDistance').textContent = 'Distance will be shown here';
+    document.getElementById('resultPace').textContent = 'Pace will be shown here';
+    document.getElementById('resultTime').textContent = 'Time will be shown here';
+    });
