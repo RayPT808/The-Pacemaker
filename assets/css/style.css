@@ -5,28 +5,48 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     background-color: #f7f7f7;
-    background-image: url(assets/css/backgroundpicture.jpg);
+    background-image: url('../images/backgroundimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1.0;
 
-    }
-    
-    
+}
 
-    .container {
+
+.container {
     text-align: center;
-    }
-    input, button {
+}
+
+input,
+button {
     margin: 10px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    }
-    button {
-    cursor: pointer;
-     
-    }
+}
 
+button {
+    cursor: pointer;
+
+}
+
+footer {
+    position: fixed; /* Fixed position */
+    left: 0; /* Align to the left edge */
+    bottom: 0; /* Align to the bottom edge */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100px; /* Set a fixed height for the footer */
+    }
     
- 
+    footer p {
+    margin: 0; /* Remove default margin */
+    }
