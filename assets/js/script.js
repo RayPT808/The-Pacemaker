@@ -1,3 +1,39 @@
+// Function to validate input
+function isValidInput(input) {
+    // Define the regex patterns for each input
+    const distancePattern = /^\d+(\.\d+)?$/; // Numbers with optional decimal
+    const pacePattern = /^\d{2}:\d{2}$/; // MM:SS format
+    const timePattern = /^\d{2}:\d{2}:\d{2}$/; // HH:MM:SS format
+
+    // Check if the input matches the corresponding pattern
+    return {
+        distance: distancePattern.test(input.distance),
+        pace: pacePattern.test(input.pace),
+        time: timePattern.test(input.time)
+    };
+}
+
+// Event listener for the calculate button
+document.getElementById('calculate').addEventListener('click', function () {
+    // Get the input values
+    const distanceInput = document.getElementById('distance').value;
+    const paceInput = document.getElementById('pace').value;
+    const timeInput = document.getElementById('time').value;
+
+    // Validate the input
+    const inputIsValid = isValidInput({ distance: distanceInput, pace: paceInput, time: timeInput });
+
+    // If any input is invalid, display an error message and return
+    if (!inputIsValid.distance || !inputIsValid.pace || !inputIsValid.time) {
+        alert('Please enter valid values for Distance (numbers only), Pace (MM:SS), and Time (HH:MM:SS).');
+        return;
+    }
+
+
+});
+
+
+
 // Function to calculate the missing value (distance, pace, or time)
 
 function calculateValues(distance, pace, time) {
@@ -64,4 +100,4 @@ document.getElementById('reset').addEventListener('click', function () {
     document.getElementById('resultDistance').textContent = 'Distance will be shown here';
     document.getElementById('resultPace').textContent = 'Pace will be shown here';
     document.getElementById('resultTime').textContent = 'Time will be shown here';
-    });
+});
