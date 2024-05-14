@@ -8,15 +8,11 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f7f7f7;
-    
-    background-image: url ("assets/images/backgroungpicture"); /* Replace with the path to your image */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image in the viewport */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-attachment: fixed; /* Fix the position of the background image */
-    opacity: 0.5; /* Adjust for desired transparency level */
-    }
+    background-image: url(/workspaces/thepacemakergitpod/assets/images/backgroundpicture.jpg);
 
+    }
+    
+    
 
     .container {
     text-align: center;
