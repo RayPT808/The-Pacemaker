@@ -88,48 +88,41 @@ The emoji of a person running, supposed to indicate that the website is related 
 
 
 
+
 * Input fields 
 
-![Inputfields](/assets/media/inputfields.png)
+![Input fields](/assets/media/inputfields.png)
 
 The input fields are indicating clearly the value which value belongs to which field, bringing attention to the correct format.
 
 
++ Wrong value notification
+
+![Wrong value](/assets/media/wrongvalue.png)
+
+In that case if the user would input a wrong value or character in to the input fields a pop up window will send a notification.
 
 
+- Buttons
 
-- Social Media Links
+![Buttons](/assets/media/buttons.png)
 
-![social media icons](/assets/media/socialmedialinks.png)
-
-The social media links can be found on all three pages at the bottom- footer.
-With the well known icons for Youtube, LinkdIn, Facebook the visitor can collect more information about the business.
-
+To keep a clear and straightforward user experience the number of buttons are minimal. The "Run!" button is triggering the calculation, it is essentially a calculate or submit button.
+The "Reset" button clears the fields and gets them ready to another calculation
 
 
-* External Links
+* Result fields
 
-External link on page one is taking the visitor to another service provider's website who the owner worked in the past.
-First external link on page two takes the visitor the the owners Youtube channel. Here the visitor can get a better idea about the type of training that the service covers.
-Second external link on page two takes the visitor to a public fitness studio's website where the owner also delivers the training services. It's an alternative location.
+![Result fields](/assets/media/resultfield.png)
 
-
-+ Contact Form
-
-![Screenshot-of-contactform](/assets/media/form.png)
+There are three fields which are clearly indicating the place of the expected result, depending on, in which value is the user interested.
 
 
++ User guide
 
-On page three is a simple contact for which requests First Name, Last Name and email address from anyone who is interested in personal training or wants to have more information.
+![User guide](/assets/media/userguide.png)
 
-
-
-
-- Checkboxes
-
-![checkboxes](/assets/media/checkboxes.png)
-
-The check boxes on page three help the visitor clarifying their training goal and helps the owner to anticipate the needs of a potential client.
+The user guide can be found at the bottom of the page in the footer section. Gives a brief, clear explanation on how to fill out the forms.
 
 
 
