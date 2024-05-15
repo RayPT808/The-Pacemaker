@@ -2,9 +2,9 @@
 
 Whether you just starting out runnig or you are a serious mararthon runner with a target finish time in your mind, The Pacemaker could be a useful tool to adjust your training based on you goals. The Pacemaker is a running pace calculator feature that can help you specify ypur training by running a certain distance with the right pace or it can help on race day to set your pace correct. 
 The Pacemaker will do the math for you, so all you have to is just RUN!
- 
 
-![Mockup screenshot](/assets/media/mockup-1.png)
+
+![Mockup](/assets/media/mockup.png)
 
 ## User Experience
 
