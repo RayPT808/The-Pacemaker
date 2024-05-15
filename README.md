@@ -11,22 +11,21 @@ The Pacemaker will do the math for you, so all you have to is just RUN!
 ### First time visitor goals
 
 + As a first time visitor the goal and the purpose of the website is easily understandable.
-- As a first time visitor I can easily navigate through the pages and locate content.
-* As a first time visitor I can find feedbacks/ testimonials from past/current clients and perhaps I can relate to some of these individulas.
+- As a first time visitor I can easily navigate through the page and locate content.
+* As a first time visitor I can find right at the bottom of the page a shor user guide for the calculator.
 
 
 ### Returning visitor goals
 
-+ After some contemplation as a returning visitor to the website I can find out specifically on which locations can I reuest the service.
-- As a returning visitor I can submit my "interest" towards the service provider, I can get in to contact.
-* As a returning visitor I'll have a better understanding of the type of training/services.
-+ As a returning visitor I can try some training routines based on provided/ linked videos.
-- As a returning visitor I can look up the company/ owner based on the social media links which gives a better understanding of the organisation/owner.
++ After some contemplation as a returning visitor to the website I can find altenate the input fields and with that the result.
+- As a returning visitor I can plan further ahead now with the help of the results and calculations.
+* As a returning visitor I'll have a better understanding that how long hor how fast I have to run for a certain distance to achive my golas.
++ As a returning visitor I can recommend the pace calculator to my running friends or in my running club.
 
 ### Frequent user goals
 
-- As a frequently returning user I want to see if there are updated training routines added to the Youtube channel.
-+ As a frequently returning user I want to see if the location of services perhaps expanded.
+- As a frequently returning user I want to see if there will be any additional features.
++ As a frequently returning user I want to see if there will be an android or ios application version.
 
 ## Technologies Used
 
@@ -34,6 +33,7 @@ The Pacemaker will do the math for you, so all you have to is just RUN!
 
 + HTML5
 - CSS3
+* Javascript
 
 ### Frameworks, Libraries & Programs Used
 
