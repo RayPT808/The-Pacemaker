@@ -3,6 +3,7 @@
 // Function to validate input
 function isValidInput(input) {
     // Define the regex patterns for each input
+
     var distancePattern = /^\d+(\.\d+)?$/; // Numbers with optional decimal
     var pacePattern = /^([0-5]?[0-9]):([0-5]?[0-9])$/; // MM:SS format, 00-59 for both minutes and seconds
     var timePattern = /^([0-9]?[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$/; // HH:MM:SS format, 00-59 for minutes and seconds
@@ -59,12 +60,10 @@ document.getElementById('calculate').addEventListener('click', function () {
 
     // If less than two inputs are valid and non-empty, display an error message and return
     if (validInputsCount < 2) {
-        alert('Error: ' + errorMessage.trim() + 'Please enter at least two valid values.');
+        alert('Hold on! ' + errorMessage.trim() + 'Let us find the correct values first before you run away.');
         return;
     }
 
-    // If at least two inputs are valid and non-empty, proceed with calculations
-    // ... rest of your existing code ...
 });
 
 
