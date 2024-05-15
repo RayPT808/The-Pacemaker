@@ -1,112 +1,258 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Pacemaker 
 
-Welcome USER_NAME,
+Whether you just starting out runnig or you are a serious mararthon runner with a target finish time in your mind, The Pacemaker could be a useful tool to adjust your training based on you goals. The Pacemaker is a running pace calculator feature that can help you specify ypur training by running a certain distance with the right pace or it can help on race day to set your pace correct. 
+The Pacemaker will do the math for you, so all you have to is just RUN!
+ 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup screenshot](/assets/media/mockup-1.png)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+## User Experience
 
-## Gitpod Reminders
+### First time visitor goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
++ As a first time visitor the goal and the purpose of the website is easily understandable.
+- As a first time visitor I can easily navigate through the pages and locate content.
+* As a first time visitor I can find feedbacks/ testimonials from past/current clients and perhaps I can relate to some of these individulas.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+### Returning visitor goals
 
-Another blue button should appear to click: _Open Browser_.
++ After some contemplation as a returning visitor to the website I can find out specifically on which locations can I reuest the service.
+- As a returning visitor I can submit my "interest" towards the service provider, I can get in to contact.
+* As a returning visitor I'll have a better understanding of the type of training/services.
++ As a returning visitor I can try some training routines based on provided/ linked videos.
+- As a returning visitor I can look up the company/ owner based on the social media links which gives a better understanding of the organisation/owner.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+### Frequent user goals
 
-A blue button should appear to click: _Make Public_,
+- As a frequently returning user I want to see if there are updated training routines added to the Youtube channel.
++ As a frequently returning user I want to see if the location of services perhaps expanded.
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Languages Used
 
-To log into the Heroku toolbelt CLI:
++ HTML5
+- CSS3
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Frameworks, Libraries & Programs Used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+1. Google Fonts: 
++ Google fonts were used across all the pages which was linked to the CSS file.
 
-------
+2. Font Awesome
+- Font Awesome was used to add icons to the appropriate sections.
 
-## Release History
+3. Favicon
+* Favicon emoji was used from favicon.io
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+4. Git
++ Git was used to commit and push the codes.
 
-**April 26 2024:** Update node version to 16
+5. GitHub
+- Github was used to store the project after being pushed
 
-**September 20 2023:** Update Python version to 3.9.17.
+6. Istock
+* Istock by Getty Images was used to download pictures for background and illustrations.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+7. Pixlr
++ Pixlr platform was used to edit, re-size pictures.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+8. VS Code Editor
+- To write and run the code VS Code editor was used which is Code Institute's cloud based IDE platform.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Existing Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
++ Favicon
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![favicon](/assets/favicon/favicon-16x16.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Upon opening the page in the browser next to the name of the website the "favicon" appears.
+The emoji of a weight lifting person supposed to indicate that the website is related to the topic of exercise, training, fitness, health.
 
-------
 
-## FAQ about the uptime script
+- Navigation, Header
 
-**Why have you added this script?**
+![Mockup screenshot](/assets/media/navbar.png)
+ The navigation bar and header has a clear, minimalistic style. The logo "Basel Mobile Personal Training Services" clearly indicates What it is?, Where it is?
+ The navigation bar includes three sections: 1. Home,
+                                             2. Training,
+                                             3. Contact form.
+With an underline at the actual page it indicates clearly for the visitor on which page she/he is.       
+The navigation bar, header is consitent in apperence and location on all three pages.                                      
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* Hero Image- Zoom effect
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The main/opening picture has a zoom effect to create motion on a static image. The image has warm colours and is trtying to express the freedom of movement in a simplest possible way.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+- Social Media Links
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![social media icons](/assets/media/socialmedialinks.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The social media links can be found on all three pages at the bottom- footer.
+With the well known icons for Youtube, LinkdIn, Facebook the visitor can collect more information about the business.
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+* External Links
 
-Happy coding!
+External link on page one is taking the visitor to another service provider's website who the owner worked in the past.
+First external link on page two takes the visitor the the owners Youtube channel. Here the visitor can get a better idea about the type of training that the service covers.
+Second external link on page two takes the visitor to a public fitness studio's website where the owner also delivers the training services. It's an alternative location.
+
+
++ Contact Form
+
+![Screenshot-of-contactform](/assets/media/form.png)
+
+
+
+On page three is a simple contact for which requests First Name, Last Name and email address from anyone who is interested in personal training or wants to have more information.
+
+
+
+
+- Checkboxes
+
+![checkboxes](/assets/media/checkboxes.png)
+
+The check boxes on page three help the visitor clarifying their training goal and helps the owner to anticipate the needs of a potential client.
+
+
+
+
+## Features left to implement
+
+
+For future implementation a calendar/schedule system to be added for existing clients to schedule appointments/ training sessions.
+
+
+
+## Testing
+
+### Features Testing
+
+
+
+| Feature                   | Test                                                             | Expected Outcome                                        |
+|---------------------------|------------------------------------------------------------------|---------------------------------------------------------|
+| Logo                      | Click on the logo                                              | User is brought to the Home page                       |
+| Navbar | Home Page         | Click on the Home link on each page                            | User is brought to the Home Page                       |
+| Navbar | Training-Second Page | Click on the Training link on each page                        | User is brought to the Training page                   |
+| Contact Form              | Submit an empty form                                           | Error signaling required fields                         |
+| Social Media Icons        | Click on Social media icons                                    | The relevant social media site opens in a new tab       |
+| External Links            | Click on Linked text                                           | External website opens in a new tab                    |
+| Checkboxes                | Tick the checkbox(es)                                          | Validates the selection                                |
+| Submit Button             | Click on submit button                                         | Form will be sent if it's filled correctly             |
+
+
+
+
+### Validator Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the website to ensure there were no syntax errors in the project.
+
+- W3C Markup Validator- page 1,2,3. ![htmlvalidation-page-1](/assets/media/htmlvalidation-page-1.png)
+
+
+
+![htmlvalidation-page-2](/assets/media/htmlvalidation-page-2.png)
+
+
+
+
+
+![htmlvalidation-page-3](/assets/media/htmlvalidation-page-3.png)
+
+* W3C CSS Validator ![cssvalidation](/assets/media/cssvalidation.png)
+
+
+* Accesibility
+
+I confirmed that the colors of the fonts have a good contrast with their background makes it easy to read.
+On transparent sections the same applies with the contrast.
+
+![lighthousereport](/assets/media/lighthouse-page-1-desktop.png)
+
+
+### Browser compatibility
+
+
+Tested all the pages of the website on **Chrome**, **Safari**, **Firefox**.
+Appearance was good on all three browsers.
+Intended responsiveness also good on all three.
+
+![responsiveness](/assets/media/am-i-responsive-.png)
+
+
+### Unfixed Bugs
+
+Not that I am aware of at this stage.
+
+
+## Deployment
+
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://raypt808.github.io/Basel-Mobile-Personal-Training/index.html
+
+
+
+
+
+## Credits
+
+
+
+### Content
+
+
+- Social Media icons were taken from Font Awesome.
++ Testimonials from my clients were used and published with their consent.
+* For HTML and CSS validation open source validator services-  W3C,W3C CSS- were used.
+- For responsiveness test and adjusting smaller design flaws Google Developer Tools was used.
+
+
+
+### Code
+
+- The HTML main structure is based on CI's own boilerplate code.
++ Code snipets from the CI's Love Running Project were used on page 1. and page 3.
+* Checkbox function was used from CI's course material "HTML essentials - Checkbox and Radio Inputs" chapter.
+
+
+
+
+
+### Media
+
++ Youtube video was used from my own Youtube channel's video library.
+- Images for illustration and design were taken from open source site Istock.
+
+
+
+
+### Acknowledgement 
+
+
+
+Grateful for the help and the input from my mentor **Can Sücüllü**.
+He always gave a different perspective on the issues and with his experience
+and eyes for details I was guided in the right direction to make this project happen.
