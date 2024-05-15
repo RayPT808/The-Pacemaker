@@ -11,15 +11,15 @@ The Pacemaker will do the math for you, so, all you have to do...just RUN!
 ### First time visitor goals
 
 + As a first time visitor the goal and the purpose of the website is easily understandable.
-- As a first time visitor I can easily navigate through the page and locate content.
-* As a first time visitor I can find right at the bottom of the page a shor user guide for the calculator.
+- As a first time visitor I can easily navigate through the page and locate content, function.
+* As a first time visitor I can find right at the bottom of the page a short user guide for the calculator.
 
 
 ### Returning visitor goals
 
-+ After some contemplation as a returning visitor to the website I can find altenate the input fields and with that the result.
++ After some contemplation as a returning visitor to the website I can find, alternate the input fields and with that, the result too.
 - As a returning visitor I can plan further ahead now with the help of the results and calculations.
-* As a returning visitor I'll have a better understanding that how long hor how fast I have to run for a certain distance to achive my golas.
+* As a returning visitor I'll have a better understanding of how long or how fast I have to run for a certain distance to achive my golas.
 + As a returning visitor I can recommend the pace calculator to my running friends or in my running club.
 
 ### Frequent user goals
@@ -130,7 +130,8 @@ The user guide can be found at the bottom of the page in the footer section. Giv
 ## Features left to implement
 
 
-For future implementation a calendar/schedule system to be added for existing clients to schedule appointments/ training sessions.
++ To improve user experience HTML Web storage could be used to store the previusly input values.
+* A unit conversion feature could be added to change from metric to imperial and back.
 
 
 
@@ -140,55 +141,55 @@ For future implementation a calendar/schedule system to be added for existing cl
 
 
 
-| Feature                   | Test                                                             | Expected Outcome                                        |
-|---------------------------|------------------------------------------------------------------|---------------------------------------------------------|
-| Logo                      | Click on the logo                                              | User is brought to the Home page                       |
-| Navbar | Home Page         | Click on the Home link on each page                            | User is brought to the Home Page                       |
-| Navbar | Training-Second Page | Click on the Training link on each page                        | User is brought to the Training page                   |
-| Contact Form              | Submit an empty form                                           | Error signaling required fields                         |
-| Social Media Icons        | Click on Social media icons                                    | The relevant social media site opens in a new tab       |
-| External Links            | Click on Linked text                                           | External website opens in a new tab                    |
-| Checkboxes                | Tick the checkbox(es)                                          | Validates the selection                                |
-| Submit Button             | Click on submit button                                         | Form will be sent if it's filled correctly             |
-
-
+| Feature                | Test                             | Expected Outcome                    |
+|------------------------|----------------------------------|-------------------------------------|
+| Distance field         | Input numeric value              | Calculation goes ahead              |
+|------------------------|----------------------------------|-------------------------------------|
+| Pace field             | Input value in correct form      | Calculation goes ahead              |
+|------------------------|----------------------------------|-------------------------------------|
+| Time field             | Input value in correct form      | Calculation goes ahead              |
+|------------------------|----------------------------------|-------------------------------------|
+| Run! button            | Click on the button              | Calculation and validation triggered|
+|------------------------|----------------------------------|-------------------------------------|
+| Reset button           | Click on the button              | Input fields cleared                |
+|------------------------|----------------------------------|-------------------------------------|
+| Distance result line   | When previous steps completed    | Distance result appears             |
+|------------------------|----------------------------------|-------------------------------------|
+| Pace result line       | When previous steps completed    | Pace result appears                 |
+|------------------------|----------------------------------|-------------------------------------|
+| Time result line       | When previous steps completed    | Time result appears                 |
+|------------------------|----------------------------------|-------------------------------------|
+| Wrong input message    | Submit wrong/no values           | Pop up message appears              |
 
 
 ### Validator Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the website to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.
 
-- W3C Markup Validator- page 1,2,3. ![htmlvalidation-page-1](/assets/media/htmlvalidation-page-1.png)
-
-
-
-![htmlvalidation-page-2](/assets/media/htmlvalidation-page-2.png)
+- W3C Markup Validator-  ![html validation](/assets/media/htmlvalidator.png)
 
 
-
-
-
-![htmlvalidation-page-3](/assets/media/htmlvalidation-page-3.png)
-
-* W3C CSS Validator ![cssvalidation](/assets/media/cssvalidation.png)
+* W3C CSS Validator ![css validation](/assets/media/cssvalidator.png)
 
 
 * Accesibility
 
 I confirmed that the colors of the fonts have a good contrast with their background makes it easy to read.
-On transparent sections the same applies with the contrast.
+The fields are clear and enough spacing inbetween them so user can scan through the page easily.
 
-![lighthousereport](/assets/media/lighthouse-page-1-desktop.png)
+![lighthousereport desktop](/assets/media/lighthousedesktop.png)
+
+![Lighthousereport mobile](/assets/media/lighthousemobile.png)
 
 
 ### Browser compatibility
 
 
-Tested all the pages of the website on **Chrome**, **Safari**, **Firefox**.
+Tested the website on **Chrome**, **Safari**, **Firefox**.
 Appearance was good on all three browsers.
 Intended responsiveness also good on all three.
 
-![responsiveness](/assets/media/am-i-responsive-.png)
+![responsiveness](/assets/media/mockup.png)
 
 
 ### Unfixed Bugs
@@ -203,7 +204,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://raypt808.github.io/Basel-Mobile-Personal-Training/index.html
+The live link can be found here - 
 
 
 
@@ -216,18 +217,19 @@ The live link can be found here - https://raypt808.github.io/Basel-Mobile-Person
 ### Content
 
 
-- Social Media icons were taken from Font Awesome.
-+ Testimonials from my clients were used and published with their consent.
+- Icons were taken from Font Awesome.
 * For HTML and CSS validation open source validator services-  W3C,W3C CSS- were used.
-- For responsiveness test and adjusting smaller design flaws Google Developer Tools was used.
+- For responsiveness test and adjusting smaller design flaws Google Chrome Developer Tools was used.
 
 
 
 ### Code
 
 - The HTML main structure is based on CI's own boilerplate code.
-+ Code snipets from the CI's Love Running Project were used on page 1. and page 3.
-* Checkbox function was used from CI's course material "HTML essentials - Checkbox and Radio Inputs" chapter.
++ Javascript code was used and altered from codeopen.io/EricW_Jones repository.
+* Ideas of Javascript code was taken from codeopen.io/HMPD's project.
+- To create input fields and submit button HTML <input> Tag section from w3schools.com was used.
++ HTML Event Attributes section from w3schools.com was used as source.
 
 
 
@@ -235,8 +237,7 @@ The live link can be found here - https://raypt808.github.io/Basel-Mobile-Person
 
 ### Media
 
-+ Youtube video was used from my own Youtube channel's video library.
-- Images for illustration and design were taken from open source site Istock.
+- Images for illustration and design were taken from open source site Wecteezy.com.
 
 
 
