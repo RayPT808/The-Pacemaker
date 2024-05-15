@@ -80,21 +80,20 @@ Upon opening the page in the browser next to the name of the website the "favico
 The emoji of a person running, supposed to indicate that the website is related to the topic of running, training.
 
 
-- Navigation, Header
+- Running man logo next to H1
 
-![Mockup screenshot](/assets/media/navbar.png)
- The navigation bar and header has a clear, minimalistic style. The logo "Basel Mobile Personal Training Services" clearly indicates What it is?, Where it is?
- The navigation bar includes three sections: 1. Home,
-                                             2. Training,
-                                             3. Contact form.
-With an underline at the actual page it indicates clearly for the visitor on which page she/he is.       
-The navigation bar, header is consitent in apperence and location on all three pages.                                      
+![Running icon](/assets/images/runningicon.png)
+
+ The running man icon next to the header supposed to reenforce for the website visitor the main topic of the site.                            
 
 
 
-* Hero Image- Zoom effect
+* Input fields 
 
-The main/opening picture has a zoom effect to create motion on a static image. The image has warm colours and is trtying to express the freedom of movement in a simplest possible way.
+![Inputfields](/assets/media/inputfields.png)
+
+The input fields are indicating clearly the value which value belongs to which field, bringing attention to the correct format.
+
 
 
 
