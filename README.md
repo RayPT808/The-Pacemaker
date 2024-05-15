@@ -38,7 +38,7 @@ The Pacemaker will do the math for you, so all you have to is just RUN!
 ### Frameworks, Libraries & Programs Used
 
 1. Google Fonts: 
-+ Google fonts were used across all the pages which was linked to the CSS file.
++ Google fonts were used across the page - Link provided by CI- Love Maths walkthrough project.
 
 2. Font Awesome
 - Font Awesome was used to add icons to the appropriate sections.
@@ -52,11 +52,11 @@ The Pacemaker will do the math for you, so all you have to is just RUN!
 5. GitHub
 - Github was used to store the project after being pushed
 
-6. Istock
-* Istock by Getty Images was used to download pictures for background and illustrations.
+6. Vecteezy.com
+* Vecteezy was used to download pictures for background and illustrations.
 
-7. Pixlr
-+ Pixlr platform was used to edit, re-size pictures.
+7. Canva.com
++ Canva platform was used to edit, re-size pictures.
 
 8. VS Code Editor
 - To write and run the code VS Code editor was used which is Code Institute's cloud based IDE platform.
@@ -77,7 +77,7 @@ The Pacemaker will do the math for you, so all you have to is just RUN!
 ![favicon](/assets/favicon/favicon-16x16.png)
 
 Upon opening the page in the browser next to the name of the website the "favicon" appears.
-The emoji of a weight lifting person supposed to indicate that the website is related to the topic of exercise, training, fitness, health.
+The emoji of a person running, supposed to indicate that the website is related to the topic of running, training.
 
 
 - Navigation, Header
