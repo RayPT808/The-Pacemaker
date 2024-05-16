@@ -172,6 +172,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 * W3C CSS Validator ![css validation](/assets/media/cssvalidator.png)
 
 
++ JSHint Javascript Validator ![js validation](/assets/media/jshintsolution.png)
+
+
 * Accesibility
 
 I confirmed that the colors of the fonts have a good contrast with their background makes it easy to read.
@@ -179,7 +182,7 @@ The fields are clear and enough spacing inbetween them so user can scan through 
 
 ![lighthousereport desktop](/assets/media/lighthousedesktop.png)
 
-![Lighthousereport mobile](/assets/media/lighthousemobile.png)
+![lighthousereport mobile](/assets/media/lighthousemobile.png)
 
 
 ### Browser compatibility
@@ -194,7 +197,16 @@ Intended responsiveness also good on all three.
 
 ### Unfixed Bugs
 
-Not that I am aware of at this stage.
+Multiple bugs in js code upon running the validation. 
+![js bugs](/assets/media/jshintbugs1.png)
+
+Solutions:  
+
+* Changing 'strict' mode from the global scope specifically by the beginning of a function will remove the error.
+- Adding "/*jslint esversion: 6 */" on top of the file will remove the remainig issues.
+
+![fixed bugs](/assets/media/jshintsolution.png)
+
 
 
 ## Deployment
