@@ -39,28 +39,43 @@ button {
 
 footer {
     position: fixed;
-    /* Fixed position */
     left: 0;
-    /* Align to the left edge */
     bottom: 0;
-    /* Align to the bottom edge */
     width: 100%;
-    /* Full width */
     text-align: center;
-    /* Center text horizontally */
     display: flex;
-    /* Use flexbox */
     justify-content: center;
-    /* Center content horizontally */
     align-items: center;
-    /* Center content vertically */
     height: 100px;
-    /* Set a fixed height for the footer */
     color: black;
 
 }
 
 footer p {
     margin: 0;
-    /* Remove default margin */
+    
 }
+/* Media query for smaller screens */
+@media (max-height: 700px) {
+    body {
+    height: auto;
+    }
+    footer {
+    position: static;
+    height: auto;
+    padding: 20px 0; /* Add padding to maintain vertical space */
+    }
+    footer p {
+    text-align: left; /* Align text to the left */
+    padding: 0 15px; /* Add padding to prevent text from touching the edges */
+    }
+    }
+    
+    /* Media query for desktops, laptops, and tablets */
+@media (min-width: 768px) {
+    footer p {
+    margin: 0 auto; /* Center the paragraph within the footer */
+    max-width: 80%; /* Limit the maximum width of the paragraph */
+    padding: 10px; /* Add some padding for visual comfort */
+    }
+    }
