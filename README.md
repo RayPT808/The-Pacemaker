@@ -18,7 +18,7 @@ The Pacemaker will do the math for you, so, all you have to do...just RUN!
 ### Returning visitor goals
 
 + After some contemplation as a returning visitor to the website I can find, alternate the input fields and with that, the result too.
-- As a returning visitor I can plan further ahead now with the help of the results and calculations.
+- As a returning visitor I can plan my training ahead now with the help of the results and calculations.
 * As a returning visitor I'll have a better understanding of how long or how fast I have to run for a certain distance to achive my golas.
 + As a returning visitor I can recommend the pace calculator to my running friends or in my running club.
 
@@ -202,7 +202,7 @@ Not that I am aware of at this stage.
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
+From the source section drop-down menu, select the Master Branch.
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - 
 
